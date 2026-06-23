@@ -1,0 +1,625 @@
+[03-Sep-2025 20:37:30 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/db.php:9
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/db.php(9): mysqli->__construct()
+#1 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(2): include('/home/rizp3541/...')
+#2 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/db.php on line 9
+[03-Sep-2025 21:00:33 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:00:50 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:00:51 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:00:56 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:00:56 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:00:56 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:00:56 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:00:56 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:00:57 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:00:57 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:00:57 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:00:58 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:04 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:04 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:04 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:04 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:05 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:05 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:05 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:05 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:14 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:14 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:50 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:51 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:51 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:52 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:52 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:52 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:52 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:01:52 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:02:01 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:02:26 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:03:16 Asia/Jakarta] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for http failed: Name or service not known in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php on line 15
+[03-Sep-2025 21:03:16 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: Name or service not known in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php:15
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php(15): mysqli->__construct()
+#1 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(2): include('/home/rizp3541/...')
+#2 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php on line 15
+[03-Sep-2025 21:03:25 Asia/Jakarta] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for http failed: Name or service not known in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php on line 15
+[03-Sep-2025 21:03:25 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: Name or service not known in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php:15
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php(15): mysqli->__construct()
+#1 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(2): include('/home/rizp3541/...')
+#2 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php on line 15
+[03-Sep-2025 21:03:25 Asia/Jakarta] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for http failed: Name or service not known in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php on line 15
+[03-Sep-2025 21:03:25 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: Name or service not known in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php:15
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php(15): mysqli->__construct()
+#1 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(2): include('/home/rizp3541/...')
+#2 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php on line 15
+[03-Sep-2025 21:03:49 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:03:49 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:03:49 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:03:49 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:04:11 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:04:11 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:04:11 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:04:12 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:04:12 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:04:27 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:04:37 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:07:26 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:07:27 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:07:43 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:12:55 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 21:12:55 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:6
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(6): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 6
+[03-Sep-2025 22:36:38 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:5
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(5): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 5
+[03-Sep-2025 22:36:39 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:5
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(5): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 5
+[03-Sep-2025 22:36:41 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:5
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(5): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 5
+[03-Sep-2025 22:36:45 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:5
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(5): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 5
+[03-Sep-2025 22:37:17 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:5
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(5): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 5
+[03-Sep-2025 22:43:50 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'rizp3541_absen_mahasiswa.users' doesn't exist in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php:5
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php(5): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/data/index.php on line 5
+[03-Sep-2025 23:01:08 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:08 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:08 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:08 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:08 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:08 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:08 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:08 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:09 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:09 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:09 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:09 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:10 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:10 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:10 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:10 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:15 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:15 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:15 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:15 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:15 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:15 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:15 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:15 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:21 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:21 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:21 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:21 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:21 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:21 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:21 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:21 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:28 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:28 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:28 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:28 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:28 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:28 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:28 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:28 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:56 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:56 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:56 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:56 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:01:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:02 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:02 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:02 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:02 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:02 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:02 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:02 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:02 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:03 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:03 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:03 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:03 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:03 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:03 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:03 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:03 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:03 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:03 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:03 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:03 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:05 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:05 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:05 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:05 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:41 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:41 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:41 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:41 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:42 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:42 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:42 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:42 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:43 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:43 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:43 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:43 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:43 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:43 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:43 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:43 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:44 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:44 Asia/Jakarta] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:44 Asia/Jakarta] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 3
+[03-Sep-2025 23:02:44 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[03-Sep-2025 23:02:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/ajaxSearching.php on line 21
+[04-Sep-2025 00:01:23 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php:15
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php(15): mysqli->__construct()
+#1 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/index.php(2): include('/home/rizp3541/...')
+#2 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php on line 15
+[04-Sep-2025 00:01:28 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php:15
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php(15): mysqli->__construct()
+#1 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/index.php(2): include('/home/rizp3541/...')
+#2 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php on line 15
+[04-Sep-2025 00:01:28 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php:15
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php(15): mysqli->__construct()
+#1 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/index.php(2): include('/home/rizp3541/...')
+#2 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php on line 15
+[04-Sep-2025 00:02:41 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php:15
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php(15): mysqli->__construct()
+#1 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/index.php(2): include('/home/rizp3541/...')
+#2 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php on line 15
+[04-Sep-2025 00:02:42 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php:15
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php(15): mysqli->__construct()
+#1 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/index.php(2): include('/home/rizp3541/...')
+#2 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php on line 15
+[04-Sep-2025 00:02:47 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php:15
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php(15): mysqli->__construct()
+#1 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/index.php(2): include('/home/rizp3541/...')
+#2 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php on line 15
+[06-Sep-2025 21:40:42 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') < 10:00:00 ORDER BY nim' at line 1 in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/cetak_excel.php:19
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/cetak_excel.php(19): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/cetak_excel.php on line 19
+[06-Sep-2025 21:40:44 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') < 10:00:00 ORDER BY nim' at line 1 in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/cetak_excel.php:19
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/cetak_excel.php(19): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/cetak_excel.php on line 19
+[06-Sep-2025 21:40:48 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') < 10:00:00 ORDER BY nim' at line 1 in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/cetak_excel.php:19
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/cetak_excel.php(19): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/cetak_excel.php on line 19
+[06-Sep-2025 21:41:19 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') <= '10:00:00' ORDER BY nim' at line 1 in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/cetak_excel.php:19
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/cetak_excel.php(19): mysqli->query()
+#1 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/data/cetak_excel.php on line 19

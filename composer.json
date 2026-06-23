@@ -1,0 +1,13 @@
+{
+    "require": {
+        "chillerlan/php-qrcode": "^5.0",
+        "phpmailer/phpmailer": "^6.9",
+        "aws/aws-sdk-php": "^3.280"
+    },
+    "config": {
+        "platform": {
+            "php": "8.1.10"
+        },
+        "platform-check": false
+    }
+}

@@ -1,0 +1,12 @@
+[03-Sep-2025 20:37:37 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/db.php:9
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/db.php(9): mysqli->__construct()
+#1 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/dashboard/index.php(2): include('/home/rizp3541/...')
+#2 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/absensi/db.php on line 9
+[04-Sep-2025 00:01:35 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php:15
+Stack trace:
+#0 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php(15): mysqli->__construct()
+#1 /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/dashboard/index.php(2): include('/home/rizp3541/...')
+#2 {main}
+  thrown in /home/rizp3541/public_html/absensi-mahasiswa.rcl.my.id/db.php on line 15

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>QR Scanner Absensi</title>
+        <style>
+            :root {
+                font-family: monospace;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                background-color: #f5f5f5;
+                color: #333;
+                min-height: 100vh;
+            }
+
+            .header {
+                background: linear-gradient(135deg, #6366f1, #8b5cf6);
+                color: white;
+                padding: 20px 0;
+                text-align: center;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            .scanner-container {
+                max-width: 800px;
+                margin: 20px auto;
+                padding: 20px;
+                background: white;
+                border-radius: 12px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            #result {
+                text-align: center;
+                margin-top: 20px;
+                padding: 15px;
+                background: #f8f9fa;
+                border-radius: 8px;
+                font-weight: 500;
+                color: #495057;
+            }
+
+            .loading {
+                text-align: center;
+                color: #6c757d;
+                font-style: italic;
+                margin-top: 10px;
+            }
+
+            /* SweetAlert2 Custom Styles */
+            .swal2-popup {
+                border-radius: 16px !important;
+                padding: 2rem !important;
+            }
+
+            .swal2-title {
+                font-size: 1.5rem !important;
+                font-weight: 700 !important;
+                color: #1f2937 !important;
+                margin-bottom: 1rem !important;
+            }
+
+            .swal2-html-container {
+                font-size: 1.1rem !important;
+                color: #4b5563 !important;
+                margin-bottom: 1.5rem !important;
+            }
+
+            .swal2-confirm {
+                background-color: #3b82f6 !important;
+                border: none !important;
+                border-radius: 8px !important;
+                padding: 12px 24px !important;
+                font-weight: 600 !important;
+                font-size: 1rem !important;
+                margin: 0 8px !important;
+                transition: background-color 0.2s !important;
+            }
+
+            .swal2-confirm:hover {
+                background-color: #2563eb !important;
+            }
+
+            .swal2-cancel {
+                background-color: #6b7280 !important;
+                border: none !important;
+                border-radius: 8px !important;
+                padding: 12px 24px !important;
+                font-weight: 600 !important;
+                font-size: 1rem !important;
+                margin: 0 8px !important;
+                transition: background-color 0.2s !important;
+            }
+
+            .swal2-cancel:hover {
+                background-color: #4b5563 !important;
+            }
+
+            .success-btn {
+                background-color: #10b981 !important;
+            }
+
+            .success-btn:hover {
+                background-color: #059669 !important;
+            }
+
+            .error-btn {
+                background-color: #ef4444 !important;
+            }
+
+            .error-btn:hover {
+                background-color: #dc2626 !important;
+            }
+        </style>
+        <!-- SweetAlert2 CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.10.1/sweetalert2.min.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.10.1/sweetalert2.min.css"
+        />
+        <!-- HTML5 QR Code Scanner -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.8/html5-qrcode.min.js"></script>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Scan QR Code untuk Absensi</h1>
+            <p>Arahkan kamera ke QR Code Peserta</p>
+        </div>
+
+        <div class="scanner-container">
+            <div id="reader"></div>
+            <div id="result"></div>
+        </div>
+
+        <script>
+            let namaPeserta = "";
+            let sudahScan = false;
+            let html5QrcodeScanner = null;
+
+            // Fungsi untuk menampilkan loading
+            function showLoading(message) {
+                document.getElementById(
+                    "result"
+                ).innerHTML = `<div class="loading">${message}</div>`;
+            }
+
+            // Fungsi untuk menampilkan hasil
+            function showResult(message, isError = false) {
+                const resultDiv = document.getElementById("result");
+                resultDiv.innerHTML = message;
+                resultDiv.style.color = isError ? "#dc2626" : "#059669";
+                resultDiv.style.backgroundColor = isError
+                    ? "#fef2f2"
+                    : "#f0fdf4";
+                resultDiv.style.border = isError
+                    ? "1px solid #fecaca"
+                    : "1px solid #bbf7d0";
+            }
+
+            function onScanSuccess(decodedText, decodedResult) {
+                if (sudahScan) return; // abaikan scan berikutnya
+                sudahScan = true;
+
+                console.log("Decoded text:", decodedText);
+
+                // Pause scanner sementara
+                if (html5QrcodeScanner) {
+                    html5QrcodeScanner.pause(true);
+                }
+
+                showLoading("Memverifikasi QR Code...");
+
+                // Ambil data user terlebih dahulu
+                fetch("get_user.php?token=" + encodeURIComponent(decodedText))
+                    .then((response) => {
+                        if (!response.ok) {
+                            throw new Error("Network response was not ok");
+                        }
+                        return response.json();
+                    })
+                    .then((data) => {
+                        console.log("Get user response:", data);
+
+                        if (data.status && data.status !== 200) {
+                            // Jika ada error dari get_user.php
+                            showResult(
+                                data.message || "Error mengambil data user",
+                                true
+                            );
+                            resetScanner();
+                            return;
+                        }
+
+                        namaPeserta =
+                            data.nama_lengkap ||
+                            data.message ||
+                            "Nama tidak ditemukan";
+
+                        // Tampilkan konfirmasi nama
+                        Swal.fire({
+                            title: "Konfirmasi Identitas",
+                            html: `Apakah nama mahasiswa sudah sesuai?<br><strong style="color: #3b82f6; font-size: 1.2em;">${namaPeserta}</strong>`,
+                            icon: "question",
+                            showCancelButton: true,
+                            confirmButtonText: "Ya, Benar!",
+                            cancelButtonText: "Tidak, Scan Ulang",
+                            reverseButtons: true,
+                            allowOutsideClick: false,
+                            allowEscapeKey: false,
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                // Proses absensi
+                                prosesAbsensi(decodedText);
+                            } else {
+                                // Batalkan dan reset
+                                Swal.fire({
+                                    title: "Dibatalkan",
+                                    text: "Silakan scan QR Code yang benar",
+                                    icon: "info",
+                                    confirmButtonText: "OK",
+                                    customClass: {
+                                        confirmButton: "swal2-confirm",
+                                    },
+                                });
+                                showResult(
+                                    "Scan dibatalkan. Silakan coba lagi."
+                                );
+                                resetScanner();
+                            }
+                        });
+                    })
+                    .catch((error) => {
+                        console.error("Error fetching user data:", error);
+                        showResult(
+                            "Gagal memverifikasi QR Code. Silakan coba lagi.",
+                            true
+                        );
+                        resetScanner();
+                    });
+            }
+
+            function prosesAbsensi(token) {
+                showLoading("Memproses absensi...");
+
+                fetch("save_user.php?token=" + encodeURIComponent(token))
+                    .then((response) => {
+                        if (!response.ok) {
+                            throw new Error("Network response was not ok");
+                        }
+                        return response.json();
+                    })
+                    .then((data) => {
+                        console.log("Save user response:", data);
+
+                        if (data.status === 200) {
+                            // Berhasil absen
+                            Swal.fire({
+                                title: "Absensi Berhasil!",
+                                html: `Selamat <strong>${data.nama_lengkap}</strong>!<br>Absensi Anda telah tercatat.`,
+                                icon: "success",
+                                confirmButtonText: "OK",
+                                customClass: {
+                                    confirmButton: "swal2-confirm success-btn",
+                                },
+                            });
+                            showResult(
+                                `✅ Absensi berhasil untuk: ${data.nama_lengkap}`
+                            );
+                        } else {
+                            // Gagal absen (sudah absen, di luar jam, dll)
+                            Swal.fire({
+                                title: data.title || "Gagal Absen",
+                                text: data.message || "Terjadi kesalahan",
+                                icon: "warning",
+                                confirmButtonText: "OK",
+                                customClass: {
+                                    confirmButton: "swal2-confirm",
+                                },
+                            });
+                            showResult(
+                                data.message || "Gagal melakukan absensi",
+                                true
+                            );
+                        }
+
+                        // Reset setelah 0,5 detik
+                        setTimeout(() => {
+                            resetScanner();
+                        }, 500);
+                    })
+                    .catch((error) => {
+                        console.error("Error saving attendance:", error);
+                        Swal.fire({
+                            title: "Error",
+                            text: "Gagal menyimpan absensi. Silakan coba lagi.",
+                            icon: "error",
+                            confirmButtonText: "OK",
+                            customClass: {
+                                confirmButton: "swal2-confirm error-btn",
+                            },
+                        });
+                        showResult("Error: Gagal menyimpan absensi", true);
+                        resetScanner();
+                    });
+            }
+
+            function resetScanner() {
+                setTimeout(() => {
+                    sudahScan = false;
+                    namaPeserta = "";
+                    if (html5QrcodeScanner) {
+                        html5QrcodeScanner.resume();
+                    }
+                    showResult("Siap untuk scan QR Code berikutnya");
+                }, 2000);
+            }
+
+            function onScanError(errorMessage) {
+                // Log error tapi jangan tampilkan ke user (terlalu spam)
+                console.log("Scan error:", errorMessage);
+            }
+
+            // Inisialisasi scanner
+            document.addEventListener("DOMContentLoaded", function () {
+                try {
+                    html5QrcodeScanner = new Html5QrcodeScanner("reader", {
+                        fps: 10,
+                        // qrbox: { width: 300, height: 300 },
+                        aspectRatio: 1.0,
+                        disableFlip: false,
+                    });
+
+                    html5QrcodeScanner.render(onScanSuccess, onScanError);
+                    showResult("Scanner siap! Arahkan kamera ke QR Code");
+                } catch (error) {
+                    console.error("Error initializing scanner:", error);
+                    showResult(
+                        "Gagal menginisialisasi scanner. Pastikan browser mendukung kamera.",
+                        true
+                    );
+                }
+            });
+        </script>
+    </body>
+</html>
